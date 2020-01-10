@@ -1,0 +1,99 @@
+body{
+  font-family: Calibri, sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.header{
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+h2 {
+  margin: 8px 0;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+div > h4{
+  text-decoration: underline;
+}
+
+p{
+  line-height: 1em;
+  margin: 5px 0;
+}
+
+.row-section:nth-child(even){
+  background-color: #f2f2f2
+}
+
+.row-section{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.title{
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+.subsection{
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.leftSide{
+  width: 120px;
+  padding: 0 8px;
+}
+
+.rightSide{
+  width: 660px;
+  padding: 0 5px;
+}
+
+.innerRow{
+  display: flex;
+  flex-direction: row;
+}
+
+.leftInnerItem{
+  width: 55%;
+  text-align: center;
+}
+
+.rightInnerItem{
+  width: 45%;
+  text-align: center;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  padding: 0 2px;
+  margin: 5px 0;
+}
+
+li {
+  margin: 3px 0;
+}
